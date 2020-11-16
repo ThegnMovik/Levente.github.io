@@ -1,0 +1,54 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(back1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+h1 {
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 25px;
+    margin: none;
+    text-align: center;
+}
+h2 {
+    /* font-family: Montserrat;
+    font-style: italic; */
+    font-size: 1em;
+    margin: none;
+    text-align: center;
+}
+.container{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h4 {
+    font-family georgia;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    color: white;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    /* -moz-box-shadow: for mozila, -ms- for microsoft , -webkit- fro chrome, -o- for opera ... go see css reference, or can i use.com if this is needed */
+    margin-top: 10px;
+}
+img {
+    width: 400px;
+    height: 260px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover {
+    transform: scale(1.1);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
